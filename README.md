@@ -10,12 +10,13 @@ Analysis of IATTC data set: Tuna and billfish EPO longline catch and effort aggr
 ## Project Structure
 
 - 'data/raw': Contains the .csv zip file and dataset ('PublicLLTunaBillfishMt.csv') as downloaded from IATTC website.
-- `scripts/01_processing`: Contains cleaned (tidy/wrangled) version of selcted data set.
+- `scripts/01_processing`: Contains cleaned (tidy/wrangled) version of selected data set.
 
 ## About the Data
 ### Column (Variables)
-  - Year:   Numeric   - Year in which catch was reported.
-  - Month:  Numeric   - Month in which catch is reported. (1-12)
+  - date:   Character - Date (Year-Month; XXXX-XX)
+      Year:   Numeric - Year in which catch was reported.
+      Month:  Numeric - Month in which catch is reported. (1-12)
   - Flag:   Character - Renamed to 'Country'; Abbreviation of country name.
   - LatC5:  Numeric   - Latitude
   - LonC5:  Numeric   - Longitude
