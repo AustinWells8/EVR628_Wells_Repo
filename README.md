@@ -9,15 +9,29 @@ Analysis of IATTC data set: Tuna and billfish EPO longline catch and effort aggr
 
 ## Project Structure
 
-- 'data/raw/': Contains the .csv zip file and dataset ('PublicLLTunaBillfishMt.csv') as downloaded from IATTC website.
+- 'data/raw': Contains the .csv zip file and dataset ('PublicLLTunaBillfishMt.csv') as downloaded from IATTC website.
 - `scripts/01_processing`: Contains cleaned (tidy/wrangled) version of selcted data set.
 
 ## About the Data
 ### Column (Variables)
-  - Year: Numeric - Year in which catach was reported.
-  - Month: Numeric - Month in which catch is reported. (1-12)
-  - Flag: Character - Renamed to 'Country'; Abbreviation of country name.
-  - Species (Fish Type): Character - Abbreviated name of fish type.; Values represent fish weight (metric tons).
+  - Year:   Numeric   - Year in which catch was reported.
+  - Month:  Numeric   - Month in which catch is reported. (1-12)
+  - Flag:   Character - Renamed to 'Country'; Abbreviation of country name.
+  - LatC5:  Numeric   - Latitude
+  - LonC5:  Numeric   - Longitude
+  - Hooks:  Numeric   - Number of Hooks
+  
+  - <Spp>mt:  Numeric   - Weight of indicated species (metric tons)
+  
+  - Species (Fish Type) Code: Character 
+      ALB = Albacore
+      YFT = Yellowfin
+      BLM = Black marlin
+      
+  - Flag Codes
+      Standard ISO-3166 codes used by the IATTC in its documents and publications.
+      For further information on those codes, see
+      https://www.iattc.org/en-US/Data/Reference-codes
     
 
 ## Author
