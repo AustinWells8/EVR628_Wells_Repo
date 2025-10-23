@@ -52,3 +52,5 @@ glimpse(target_tuna_and_billfish)
 avg_monthly_fish_wt <- target_tuna_and_billfish |>
   group_by(date, Country, Species) |>
   summarise(avg_catch_mt = mean(Catch_mt, na.rm = TRUE))
+
+write_rds(avg_monthly_fish_wt, file = "data/processed/avg_monthly_fish_wt.rds")
