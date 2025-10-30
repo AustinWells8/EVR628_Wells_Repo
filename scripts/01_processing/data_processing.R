@@ -32,14 +32,16 @@ tuna_and_billfish <- read_csv("data/raw/PublicLLTunaBillfishMt.csv")|>
   mutate(date = make_date(year = Year, month = Month, day = 1)) |>
   mutate(date = format(date, "%Y-%m"))
 
+unique(tuna_and_billfish$Country)
+
 ## Filter data to only represent fish of choice:
 ## (Albacore = ALB, Yellowfin = YFT, & Black Marlin = BLM)
-## This analysis will include data from year 2000 and on.
+## This analysis will include data for the year 2024
 
 target_tuna_and_billfish <- tuna_and_billfish |> 
   select(date, Country, LonC5, LatC5, Hooks, ALBmt, YFTmt, BLMmt) |>
   filter(ALBmt > 0, YFTmt > 0, BLMmt > 0,
-         date >= 2000) |>
+         date >= 2024) |>
   group_by(date, Country) |>
   pivot_longer(cols = c(ALBmt, YFTmt, BLMmt), ## Using Pivot Longer function so fish type (species) can be in 1 column.
                names_to = "Species",
