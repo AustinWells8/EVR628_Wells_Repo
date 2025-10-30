@@ -76,3 +76,5 @@ ggplot(data = target_tuna_and_billfish,
        x = " Number of Hooks (Usage)",
        y = "Species") +
   theme_minimal(base_size = 14)
+
+###### REMEMBER TO SAVE PLOTS as (.png) END EXPORT TO results/img folder !!!!
