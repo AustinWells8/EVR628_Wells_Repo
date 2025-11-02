@@ -14,7 +14,7 @@ Analysis of IATTC data set: Tuna and billfish EPO longline catch and effort aggr
 
 ## About the Data
 ### Column (Variables)
-  - date:   Character - Date (Year-Month; XXXX-XX)
+  - date:   Date - Date (Year-Month; XXXX-XX-XX)
       Year:   Numeric - Year in which catch was reported.
       Month:  Numeric - Month in which catch is reported. (1-12)
   - Flag:   Character - Renamed to 'Country'; Abbreviation of country name.
@@ -23,6 +23,7 @@ Analysis of IATTC data set: Tuna and billfish EPO longline catch and effort aggr
   - Hooks:  Numeric   - Number of Hooks
   
   - <Spp>mt:  Numeric   - Weight of indicated species (metric tons)
+  -<Spp>n:    Numeric   - Amount of Fish Caught (count)
   
   - Species (Fish Type) Code: Character 
       ALB = Albacore
