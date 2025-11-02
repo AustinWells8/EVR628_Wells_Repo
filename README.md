@@ -22,8 +22,8 @@ Analysis of IATTC data set: Tuna and billfish EPO longline catch and effort aggr
   - LonC5:  Numeric   - Longitude
   - Hooks:  Numeric   - Number of Hooks
   
-  - <Spp>mt:  Numeric   - Weight of indicated species (metric tons)
-  -<Spp>n:    Numeric   - Amount of Fish Caught (count)
+  - [Spp]mt:  Numeric   - Weight of indicated species (metric tons)
+  - [Spp]n:   Numeric   - Amount of Fish Caught (count)
   
   - Species (Fish Type) Code: Character 
       ALB = Albacore
