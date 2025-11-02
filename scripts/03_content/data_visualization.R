@@ -6,9 +6,10 @@
 # ajw272@miami.edu
 # October 19, 2025
 #
-# Description: Creating 2 visualization plots
+# Description: Creating 2 visualization plots:
+# 1. Monthly Average Catch Weight in 2024 by Species and Country.
+# 2. Average Number of Fish Caught per Month by Species and Country in 2024.
 # 
-#
 ################################################################################
 
 
@@ -30,7 +31,7 @@ tuna_and_billfish_num <- read_csv("data/raw/PublicLLTunaBillfishNum.csv")
 
 # Build Data for Use ------------------------------------------------------
 
-##  Cleaning/ Wrangling Data set to provide the average catch weight (mt) & amount () of by month & country
+##  Cleaning/ Wrangling Data set to provide the average catch weight (mt) & amount (n) of by month & country
 ##  for the 3 selected Species (Albacore = ALB, Yellowfin = YFT, & Black Marlin = BLM) in the year 2024.
 tuna_and_billfish_mt <- read_csv("data/raw/PublicLLTunaBillfishMt.csv")|>
   rename(Country = Flag) |>
@@ -86,7 +87,8 @@ p1 <- ggplot(data = avg_monthly_fish_wt,
     caption = "Data source: IATTC Dataset - Tuna and Billfish EPO longline catch and effort") +
   theme_minimal(base_size = 14)
 
-##  Figure 2. Creating a bar chart of the # of Hooks used in 2024 by Species and Country.
+##  Figure 2. Creating a bar chart of the Average Amount of Fish Caught for 3 fish species
+##  by country for the year 2024. 
 
 p2 <- ggplot(data = avg_monthly_fish_num,
        aes(x = date, y = avg_catch_num, fill = `Fish Amount`)) +
