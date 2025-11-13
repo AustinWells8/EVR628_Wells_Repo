@@ -78,7 +78,7 @@ p1 <- ggplot(data = avg_monthly_fish_wt,
        aes(x = date, y= avg_catch_mt, color = `Fish Weight`)) +
   geom_line(size = 1, linewidth = 0.5) +
   geom_point(size = 1) +
-  scale_color_discrete(labels = c("ALBmt" = "Albacore Tuna", "YFTmt" = "Yellowfin Tuna", "BLMmt" = "Black Marlin")) +
+  scale_color_discrete(name = "Fish Type", labels = c("ALBmt" = "Albacore Tuna", "YFTmt" = "Yellowfin Tuna", "BLMmt" = "Black Marlin")) +
   facet_wrap(~Country, ncol = 1, scales = "free_y") +
   labs(
     title = "Monthly Average Catch Weight in 2024",
