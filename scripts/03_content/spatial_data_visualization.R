@@ -7,7 +7,8 @@
 # November 16, 2025
 #
 # Description
-#
+# Creating Maps to visualize the OVERALL amount of Albacore, Yellowfin, and Black Marlin
+# caught in 2024 in the Eastern Pacific. 
 ################################################################################
 
 
@@ -64,12 +65,6 @@ blm_raster <- rasterize(blm_vect, r_template, field = "Catch_num", fun = "sum")
 ##  Defining Map Features/ Attributes
 
 world <- ne_countries(scale = "medium", returnclass = "sf")
-countries <- ne_countries(
-  scale = "medium",
-  country = c("China", "Japan", "Korea",
-              "Panama", "French Polynesia",
-              "Chinese Taipei", "Vanuatu"),
-  returnclass = "sf")
 
 # Building Map - For Species of Interest (ALB, YFT, BLM) ------------------
 ## Using geom_spatraster()
