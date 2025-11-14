@@ -67,4 +67,5 @@ avg_monthly_fish_num <- target_fish_num |>
   group_by(date, Country, `Fish Amount`) |>
   summarise(avg_catch_num = mean(Catch_num, na.rm = TRUE))
 
-write_rds(avg_catch_wt_and_catch_amount, file = "avg_catch_wt_and_catch_amount.rds")
+write_rds(avg_monthly_fish_wt, file = "data/processed/avg_monthly_fish_wt.rds")
+write_rds(avg_monthly_fish_num, file = "data/processed/avg_catch_num.rds")
