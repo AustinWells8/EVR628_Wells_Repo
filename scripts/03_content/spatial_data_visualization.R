@@ -95,7 +95,7 @@ ALBmap1
 YFTmap1 <- ggplot() +
    geom_sf(data = world, fill = "gray90", color = "black") +
    geom_spatraster(data = yft_raster) +
-   scale_fill_viridis_c(name = "Albacore Catch (num)", option = "magma", na.value = "transparent") + # Modifying scale title and color
+   scale_fill_viridis_c(name = "Yellowfin (num)", option = "magma", na.value = "transparent") + # Modifying scale title and color
    coord_sf(xlim = c(100, -140), ylim = c(-40, 60), expand = FALSE) + # Zooming in on map
    annotation_north_arrow(location = "tr") + #Adding in North Arrow
    annotation_scale(location = "br") + #Adding scale bar
@@ -113,7 +113,7 @@ YFTmap1
 BLMmap1 <- ggplot() +
   geom_sf(data = world, fill = "gray90", color = "black") +
   geom_spatraster(data = blm_raster) +
-  scale_fill_viridis_c(name = "Albacore Catch (num)", option = "magma", na.value = "transparent") + # Modifying scale title and color
+  scale_fill_viridis_c(name = "Black Marlin (num)", option = "magma", na.value = "transparent") + # Modifying scale title and color
   coord_sf(xlim = c(100, -140), ylim = c(-40, 60), expand = FALSE) + # Zooming in on map
   annotation_north_arrow(location = "tr") + #Adding in North Arrow
   annotation_scale(location = "br") + #Adding scale bar
