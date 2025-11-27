@@ -50,6 +50,7 @@ This project aims to analyze trends for the following fish types (Species): Alba
 ## Author
 
 Austin Wells: ajw272@miami.edu
+
 Full presentation link: <http://localhost:5171/#/title-slide>
 
 ##  References
