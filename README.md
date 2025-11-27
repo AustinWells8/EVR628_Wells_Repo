@@ -49,7 +49,8 @@ This project aims to analyze trends for the following fish types (Species): Alba
 
 ## Author
 
-[Austin Wells: ajw272@miami.edu]
+Austin Wells: ajw272@miami.edu
+Full presentation link: <http://localhost:5171/#/title-slide>
 
 ##  References
 - The Inter-American Tropical Tuna Commission (IATTC) - Public Domain for Data Download (September 2025).
