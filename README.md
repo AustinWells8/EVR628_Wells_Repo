@@ -26,6 +26,7 @@ This project aims to analyze trends for the following fish types (Species): Alba
 ## About the Data
 ### Column (Variables)
   - date:   Date - Date (Year-Month; XXXX-XX-XX)
+  
       Year:   Numeric - Year in which catch was reported.
       Month:  Numeric - Month in which catch is reported. (1-12)
   - Flag:   Character - Renamed to 'Country'; Abbreviation of country name.
@@ -37,11 +38,13 @@ This project aims to analyze trends for the following fish types (Species): Alba
   - [Spp]n:   Numeric   - Amount of Fish Caught (count)
   
   - Species (Fish Type) Code: Character 
+  
       ALB = Albacore
       YFT = Yellowfin
       BLM = Black marlin
       
   - Flag Codes
+  
       Standard ISO-3166 codes used by the IATTC in its documents and publications.
       For further information on those codes, see
       https://www.iattc.org/en-US/Data/Reference-codes
