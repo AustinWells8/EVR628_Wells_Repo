@@ -21,7 +21,7 @@ This project aims to analyze trends for the following fish types (Species): Alba
 - 'data/raw': Contains the .csv zip file and dataset ('PublicLLTunaBillfishMt.csv') as downloaded from IATTC website.
 - `scripts/01_processing`: Contains cleaned (tidy/wrangled) version of selected data set.
 - 'scripts/03_content': Contains scripts producing figures and map visualizations.
-- View final presentation [HERE](http://localhost:5171/#/title-slide)
+- **View final presentation [HERE]**(http://localhost:5171/#/title-slide)
 
 ## About the Data
 ### Column (Variables)
