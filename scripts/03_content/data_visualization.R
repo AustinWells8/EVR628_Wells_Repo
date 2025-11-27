@@ -114,3 +114,12 @@ ggsave(plot = my_plot,
        width = 10,
        height = 10)
 
+ggsave(plot = p1,
+       filename ="results/img/avg_catch_wt.png",
+       width = 10,
+       height = 10)
+
+ggsave(plot = p2,
+       filename = "results/img/avg_catch_amount.png",
+       width = 10,
+       height = 10)
