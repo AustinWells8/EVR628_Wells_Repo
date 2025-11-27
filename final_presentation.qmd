@@ -24,19 +24,19 @@ This project aims to analyze trends for the following fish types (Species): Alba
 * Visualize:
   + The overall amount of catch caught in 2024 in the Eastern Pacific Ocean.
 
-# Data Source {.scrollable}
-Data comes from:
+# Data Source
+
+## Data comes from:
 
 * Inter-American Tropical Tuna Commission (IATTC) - Public Domain for Data Download
   + Published: September 2025
   + Click [link](https://www.iattc.org/en-US/Data/Public-domain)
   
-Data Sets/ Files:
+* Data Sets/ Files:
+  + PublicLLTunaBillfishMt.csv
+  + PublicLLTunaBillfishNum.csv
 
-* PublicLLTunaBillfishMt.csv
-* PublicLLTunaBillfishNum.csv
-
-Variables:
+## Variables:
 
 * Date    - Date      - Year-Month; XXXX-XX-XX
 * Flag    - Character - Renamed to 'Country'; Abbreviation of country name
