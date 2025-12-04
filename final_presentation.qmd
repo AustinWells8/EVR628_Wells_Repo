@@ -298,3 +298,6 @@ BLMmap1
 This presentation contains data from:
 
 *The Inter-American Tropical Tuna Commission (IATTC) - Public Domain for Data Download (September 2025). <https://www.iattc.org/en-US/Data/Public-domain>
+
+quarto publish quarto-pub final_presentation.qmd
+
