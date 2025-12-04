@@ -21,7 +21,7 @@ This project aims to analyze trends for the following fish types (Species): Alba
 - 'data/raw': Contains the .csv zip file and dataset ('PublicLLTunaBillfishMt.csv') as downloaded from IATTC website.
 - `scripts/01_processing`: Contains cleaned (tidy/wrangled) version of selected data set.
 - 'scripts/03_content': Contains scripts producing figures and map visualizations.
-- **VIEW FINAL PRESENTATION** [HERE](http://localhost:5171/#/title-slide)
+- **VIEW FINAL PRESENTATION** [HERE](https://rpubs.com/Austin_Wells8/1376384)
 
 ## About the Data
 ### Column (Variables)
@@ -54,7 +54,7 @@ This project aims to analyze trends for the following fish types (Species): Alba
 
 Austin Wells: ajw272@miami.edu
 
-Full presentation link: <http://localhost:5171/#/title-slide>
+Full presentation link: <https://rpubs.com/Austin_Wells8/1376384>
 
 ##  References
 - The Inter-American Tropical Tuna Commission (IATTC) - Public Domain for Data Download (September 2025).
